@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1028939719015",
+    "project_id": "shifty-158af",
+    "storage_bucket": "shifty-158af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028939719015:android:8dba668a8ef4d37bc70fc2",
+        "android_client_info": {
+          "package_name": "com.example.shifty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028939719015-isibtugohiu2iglm8oo61iv5ono6bmgn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7qUtJqsmqVB597L3sZLbtChCLLug6udY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1028939719015-isibtugohiu2iglm8oo61iv5ono6bmgn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

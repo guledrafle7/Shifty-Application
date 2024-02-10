@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Shifty"
+        tools:targetApi="31">
+        <activity
+            android:name=".activities.paid.PaidListActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activities.timeoffrequest.TimeOffRequestActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activities.empshift.EmpShiftActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activities.generatedqr.GeneratedQRCodesActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activities.splash.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.gerenateqr.GenerateQRCodeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.paystaff.PayStaffActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.payroll.PayrollActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.bookshifts.BookShiftActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.request.RequestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.manager.ManagerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.employee.EmployeeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_employee"
+            android:theme="@style/Theme.Shifty.NoActionBar" />
+        <activity
+            android:name=".activities.authentication.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.authentication.LoginActivity"
+            android:exported="false"
+            android:launchMode="singleTop" />
+    </application>
+
+</manifest>
